@@ -1,5 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .img-container {
     height: 200px;
     background-size: cover;
     background-position: center;
+}
+
+#All {
+    border: 1px solid #835072;
+    color: #835072;
+}
+
+#All:hover {
+    background-color: #835072;
+    color: white;
+}
+
+#Doc {
+    border: 1px solid #72927c;
+    color: #72927c;
+}
+
+#Doc:hover {
+    background-color: #72927c;
+    color: white;
+}
+
+#Jacob {
+    border: 1px solid #7086a0;
+    color: #7086a0;
+}
+
+#Jacob:hover {
+    background-color: #7086a0;
+    color: white;
+}
+
+#Abbey {
+    border: 1px solid #83674e;
+    color: #83674e;
+}
+
+#Abbey:hover {
+    background-color: #83674e;
+    color: white;
 }

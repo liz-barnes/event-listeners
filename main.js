@@ -68,7 +68,7 @@ const handleButtonClick = (e) => {
 
     const selectedPies = [];
 
-    for (let i =0; i < pies.length; i++) {
+    for (let i = 0; i < pies.length; i++) {
         if (pies[i].instructor === buttonId) {
             selectedPies.push(pies[i])
         }
@@ -76,13 +76,13 @@ const handleButtonClick = (e) => {
 
     const bodySelector = document.querySelector('body')
     if (buttonId === 'Abbey') {
-        bodySelector.style.backgroundColor = '#323232';
+        bodySelector.style.backgroundColor = '#D8BFAA';
     } else if (buttonId === 'Doc') {
-        bodySelector.style.backgroundColor = 'pink';
+        bodySelector.style.backgroundColor = '#EBF5EE';
     } else if (buttonId === 'Jacob') {
-    bodySelector.style.backgroundColor = 'purple';
+    bodySelector.style.backgroundColor = '#BFD1E5';
     } else {
-        bodySelector.style.backgroundColor = 'green'
+        bodySelector.style.backgroundColor = '#ceb8c7';
     }
 
     if (buttonId === 'All' || buttonId === e.currentTarget.id) {
